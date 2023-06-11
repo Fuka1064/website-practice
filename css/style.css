@@ -5,7 +5,7 @@ ______________________________________________*/
 html {
     font-size: 100%;
 }
-body { 
+body {
     font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
     line-height: 1.7;
     color: #432;
@@ -44,7 +44,7 @@ _____________________________________*/
     justify-content: space-between;
 }
 .wrapper {
-    min-width: 1100px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 0 4%;
 }
@@ -53,7 +53,7 @@ _____________________________________*/
 ____________________________________________*/
 .home-content {
     text-align: center;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 .home-content p {
     font-size: 1.125rem;
