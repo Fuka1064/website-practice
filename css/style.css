@@ -20,13 +20,13 @@ a {
     text-decoration: none;
 }
 img {
-    max-width: 35%;
+    max-width: 100%;
 }
 
 /* HEADER 
 _____________________________________*/
 .logo {
-    width: 210px;
+    width: 350px;
     margin-top: 14px;
 }
 .main-nav {
@@ -288,6 +288,29 @@ footer p {
     font-size: 0.875rem;
 }
 
+/* 店舗情報・地図 */
+#location {
+    padding: 4% 0;
+}
+#location .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.location-info {
+    width: 22%;
+}
+.location-info p {
+    padding: 12px 10px;
+}
+.location-map {
+    width: 74%;
+}
+
+/* iframe */
+iframe {
+    width: 100%;
+}
+
 /* モバイル版 
 ______________________________________________*/
 @media (max-width: 600px) {
@@ -379,5 +402,14 @@ ______________________________________________*/
     input[type="email"],
     textarea {
         max-width: 100%;
+    }
+
+    /* 店舗情報・地図 */
+    #location .wrapper {
+        flex-direction: column;
+    }
+    .location-info,
+    .location-map {
+        width: 100%;
     }
 }
